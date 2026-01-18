@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 139.7 93.2">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 8.6px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28, .st29, .st30, .st31, .st32, .st33, .st34 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st35, .st9, .st10, .st13, .st15, .st16, .st17, .st19, .st23, .st31, .st33, .st34 {
+        fill: #fff;
+      }
+
+      .st0, .st6, .st16 {
+        font-family: JXC, JXC;
+      }
+
+      .st1, .st4, .st10, .st21, .st34 {
+        font-family: ZHJBT-XJHZJ, ZHJBT-XJHZJ;
+      }
+
+      .st1, .st4, .st19, .st31, .st32 {
+        font-size: 3px;
+      }
+
+      .st2 {
+        font-size: 4.5px;
+      }
+
+      .st2, .st5, .st19, .st31, .st33 {
+        font-family: MingLiU, MingLiU;
+      }
+
+      .st3 {
+        font-family: Bauhaus93, 'Bauhaus 93';
+        letter-spacing: .2em;
+      }
+
+      .st3, .st9 {
+        font-size: 4.2px;
+      }
+
+      .st36, .st37, .st12, .st38, .st39, .st40, .st41, .st42, .st43, .st44 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .st36, .st38, .st42 {
+        stroke: #fff;
+      }
+
+      .st36, .st43 {
+        stroke-width: .4px;
+      }
+
+      .st4, .st19 {
+        letter-spacing: .2em;
+      }
+
+      .st5 {
+        font-size: 4.6px;
+      }
+
+      .st6, .st13, .st16, .st33 {
+        glyph-orientation-vertical: 0deg;
+        text-orientation: upright;
+        writing-mode: tb;
+      }
+
+      .st6, .st20, .st33 {
+        font-size: 3.4px;
+      }
+
+      .st6, .st33 {
+        letter-spacing: .2em;
+      }
+
+      .st7, .st45 {
+        display: none;
+      }
+
+      .st37, .st40, .st43 {
+        stroke: #000;
+      }
+
+      .st37, .st44 {
+        stroke-width: .2px;
+      }
+
+      .st8 {
+        font-size: 1.7px;
+      }
+
+      .st8, .st9, .st11, .st15, .st17, .st20, .st22, .st23, .st25, .st26, .st27, .st29, .st30, .st32 {
+        font-family: SingkaiEG-Bold-Big5, SingkaiEG-Bold-Big5;
+        font-weight: 700;
+      }
+
+      .st8, .st46, .st47, .st25 {
+        fill: #636363;
+      }
+
+      .st48, .st11 {
+        fill: #5b3c3c;
+      }
+
+      .st10 {
+        letter-spacing: .3em;
+      }
+
+      .st10, .st23 {
+        font-size: 5px;
+      }
+
+      .st11, .st17 {
+        font-size: 6px;
+      }
+
+      .st12 {
+        opacity: .6;
+        stroke-width: .1px;
+      }
+
+      .st12, .st39, .st44 {
+        stroke: #595858;
+      }
+
+      .st13 {
+        font-family: Tanuki-Permanent-Marker, 'Tanuki Permanent Marker';
+        font-size: 8.4px;
+      }
+
+      .st14 {
+        fill: #f49700;
+        font-family: AaWeiLaiHei-95, AaWeiLaiHei;
+        font-size: 9.4px;
+      }
+
+      .st49 {
+        fill: #d3bd98;
+      }
+
+      .st38, .st39, .st41 {
+        stroke-width: .5px;
+      }
+
+      .st50 {
+        fill: #e5e5e5;
+      }
+
+      .st15 {
+        font-size: 2.2px;
+      }
+
+      .st16 {
+        font-size: 9.7px;
+        letter-spacing: .3em;
+      }
+
+      .st51, .st21, .st22, .st29, .st30, .st32 {
+        fill: #595858;
+      }
+
+      .st40 {
+        stroke-width: 2px;
+      }
+
+      .st41 {
+        stroke: #f49700;
+      }
+
+      .st42 {
+        stroke-width: .3px;
+      }
+
+      .st21 {
+        font-size: 2px;
+        letter-spacing: .1em;
+      }
+
+      .st22 {
+        font-size: 4px;
+      }
+
+      .st24 {
+        opacity: .4;
+      }
+
+      .st52 {
+        fill: #9b9a9a;
+      }
+
+      .st47 {
+        fill-rule: evenodd;
+      }
+
+      .st25 {
+        font-size: 2.3px;
+      }
+
+      .st26 {
+        fill: #5e5b5b;
+        font-size: 3.1px;
+      }
+
+      .st27 {
+        font-size: 6.8px;
+      }
+
+      .st28 {
+        fill: #c6c6c6;
+        opacity: .9;
+      }
+
+      .st53 {
+        fill: #bf9999;
+      }
+
+      .st29 {
+        font-size: 2.7px;
+      }
+
+      .st30 {
+        font-size: 3.6px;
+      }
+
+      .st54 {
+        fill: #9b8181;
+      }
+
+      .st55 {
+        fill: #7a7272;
+      }
+
+      .st34 {
+        font-size: 11px;
+        letter-spacing: .2em;
+      }
+    </style>
+  </defs>
+  <image class="st18" width="7514" height="5000" transform="translate(0 .1) scale(0)" xlink:href="bg-1.jpg"/>
+  <rect class="st50" y="186.4" width="139.7" height="93.2"/>
+  <rect class="st49" x="230.3" y="279.6" width="139.7" height="56"/>
+  <image class="st18" width="5916" height="3944" transform="translate(120.2 -157.2) scale(0)" xlink:href="bg-4.jpg"/>
+  <rect class="st24" y="0" width="139.7" height="93.1"/>
+  <rect class="st35" x="-122.4" y="-.1" width="100.4" height="100.2"/>
+  <line class="st40" x1="-99.1" y1="23.1" x2="-45.3" y2="76.9"/>
+  <line class="st40" x1="-99.1" y1="76.9" x2="-45.3" y2="23.1"/>
+  <image class="st18" width="3000" height="2000" transform="translate(260.7 -125.6) scale(0)" xlink:href="bg-8.jpg"/>
+  <image class="st18" width="6000" height="4000" transform="translate(-164.4 -214.7) scale(0)" xlink:href="bg-10.jpg"/>
+  <g class="st18">
+    <text class="st5" transform="translate(49.3 -3)"><tspan x="0" y="0">banner 輪播圖 pg.1</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st2" transform="translate(194.4 -3)"><tspan x="0" y="0">banner 輪播圖 pg.2</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st2" transform="translate(327.4 -3)"><tspan x="0" y="0">banner 輪播圖 pg.3</tspan></text>
+  </g>
+  <g class="st45">
+    <g class="st7">
+      <text class="st14" transform="translate(0 -3)"><tspan x="0" y="0">main</tspan></text>
+    </g>
+    <rect class="st41" y="0" width="139.7" height="93.2"/>
+  </g>
+  <g>
+    <circle class="st28" cx="65.2" cy="87.3" r=".9"/>
+    <circle class="st28" cx="69.8" cy="87.3" r=".9"/>
+    <circle class="st35" cx="74.5" cy="87.3" r=".9"/>
+  </g>
+  <g>
+    <circle class="st28" cx="63.6" cy="266.8" r="1.1"/>
+    <circle class="st28" cx="69.8" cy="266.8" r="1.1"/>
+    <circle class="st35" cx="76.1" cy="266.8" r="1.1"/>
+  </g>
+  <g>
+    <line class="st36" x1="127.8" y1="5.9" x2="133.1" y2="5.9"/>
+    <line class="st36" x1="127.8" y1="7.9" x2="133.1" y2="7.9"/>
+    <line class="st36" x1="127.8" y1="10" x2="133.1" y2="10"/>
+  </g>
+  <g class="st18">
+    <text class="st0" transform="translate(5.5 10)"><tspan x="0" y="0">logo</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st16" transform="translate(-16.2 11.9)"><tspan x="0" y="0">素食居酒屋</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st13" transform="translate(-28.6 -27.3)"><tspan x="0" y="0">居酒屋</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st34" transform="translate(37.9 34.4)"><tspan x="0" y="0">素食居酒屋</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st6" transform="translate(-12.4 49.8)"><tspan x="0" y="0">手作新</tspan></text>
+    <text class="st33" transform="translate(-12.4 61.9)"><tspan x="0" y="0">鮮</tspan></text>
+    <text class="st6" transform="translate(-12.4 66)"><tspan x="0" y="0">素食料理</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st1" transform="translate(56.4 42.8)"><tspan x="0" y="0">手作新</tspan></text>
+    <text class="st31" transform="translate(66.3 42.8)"><tspan x="0" y="0">鮮</tspan></text>
+    <text class="st1" transform="translate(69.6 42.8)"><tspan x="0" y="0">素食料理</tspan></text>
+  </g>
+  <rect class="st35" x="61.9" y="54" width="15.8" height=".2"/>
+  <rect class="st50" y="93.2" width="139.7" height="93.2"/>
+  <g class="st18">
+    <text class="st27" transform="translate(17.9 123.8)"><tspan x="0" y="0">堅持完美的</tspan></text>
+    <text class="st27" transform="translate(17.9 131.8)"><tspan x="0" y="0">居酒屋料理</tspan></text>
+  </g>
+  <g>
+    <path d="M19.7,108.8l-.6,2h-.3l-.4-1.4h0c0,0-.4,1.3-.4,1.3h-.3l-.6-2h.3l.4,1.5h0q0,0,0,0l.4-1.5h.2l.4,1.5h0c0,0,.4-1.6.4-1.6h.2l.3.2Z"/>
+    <path d="M21.5,110.7h-.2v-.9h-1v.9h-.2v-2h.2v.9h1v-.9h.2v2Z"/>
+    <path d="M21.9,110.7l.7-2h.2l.8,2h-.3l-.2-.5h-.8l-.2.5h-.3,0ZM22.4,110h.7l-.3-.9h0l-.3.9h-.1Z"/>
+    <path d="M24.9,109h-.6v1.7h-.2v-1.7h-.6v-.2h1.4s0,.2,0,.2Z"/>
+    <path d="M28.4,108.8l-.6,2h-.3l-.4-1.4h0c0,0-.4,1.3-.4,1.3h-.3l-.6-2h.3l.4,1.5h0q0,0,0,0l.4-1.5h.2l.4,1.5h0c0,0,.4-1.6.4-1.6h.2l.3.2Z"/>
+    <path d="M29.8,110.7h-1v-2h1v.2h-.8v.6h.7v.2h-.7v.7h.8v.2h0Z"/>
+    <path d="M31.1,110.7v-2h.5c.3,0,.6,0,.8.2s.3.4.3.7,0,.5-.3.7c-.2.2-.4.3-.8.3h-.5ZM31.3,109v1.5h.3c.3,0,.5,0,.6-.2,0,0,.2-.3.2-.6s0-.4-.2-.6c0,0-.3-.2-.6-.2h-.3,0Z"/>
+    <path d="M33.9,110.8c-.3,0-.5,0-.7-.3s-.2-.4-.2-.7,0-.6.3-.8c.2-.2.4-.3.7-.3s.5,0,.7.3c.2.2.2.4.2.7s0,.6-.3.8-.4.3-.7.3ZM33.9,110.6c.2,0,.4,0,.5-.2s.2-.3.2-.6,0-.5-.2-.6c0,0-.3-.2-.5-.2s-.4,0-.5.2c0,0-.2.3-.2.6s0,.4.2.6c0,0,.3.2.5.2Z"/>
+  </g>
+  <g class="st18">
+    <text class="st29" transform="translate(18.5 143.4)"><tspan x="0" y="0">堅持完美的居酒屋料理</tspan></text>
+    <text class="st29" transform="translate(18.5 146.9)"><tspan x="0" y="0">堅持玩</tspan></text>
+    <text class="st29" transform="translate(18.5 150.4)"><tspan x="0" y="0">美的素食料理</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st32" transform="translate(68.5 150.4)"><tspan x="0" y="0">堅持完美的居酒屋料理堅持玩美的素食料</tspan></text>
+    <text class="st32" transform="translate(68.5 154.3)"><tspan x="0" y="0">理料理堅持玩美的素食料理，料理堅持玩</tspan></text>
+    <text class="st32" transform="translate(68.5 158.3)"><tspan x="0" y="0">美的素食料理料理堅</tspan></text>
+    <text class="st32" transform="translate(68.5 166.2)"><tspan x="0" y="0">持玩美的素食料理料理堅持玩</tspan></text>
+    <text class="st32" transform="translate(68.5 170.1)"><tspan x="0" y="0">美的素食料理料理堅持玩美的素食料理料</tspan></text>
+    <text class="st32" transform="translate(68.5 174.1)"><tspan x="0" y="0">理堅持玩美的素食</tspan></text>
+  </g>
+  <image class="st18" width="6000" height="4000" transform="translate(9.8 -193.4) scale(0)" xlink:href="bg-3.jpg"/>
+  <g>
+    <line class="st36" x1="161.2" y1="162.5" x2="166.5" y2="162.5"/>
+    <line class="st36" x1="161.2" y1="164.6" x2="166.5" y2="164.6"/>
+    <line class="st36" x1="161.2" y1="166.7" x2="166.5" y2="166.7"/>
+  </g>
+  <g>
+    <line class="st36" x1="127.8" y1="98" x2="133.1" y2="98"/>
+    <line class="st36" x1="127.8" y1="100.1" x2="133.1" y2="100.1"/>
+    <line class="st36" x1="127.8" y1="102.2" x2="133.1" y2="102.2"/>
+  </g>
+  <line class="st39" x1="5.9" y1="170.4" x2="11.6" y2="176.1"/>
+  <circle class="st51" cx="8.8" cy="173.3" r=".8"/>
+  <g class="st18">
+    <text class="st11" transform="translate(10.3 201.1)"><tspan x="0" y="0">最新菜單</tspan></text>
+  </g>
+  <line class="st37" x1="-77.5" y1="156.9" x2="-58" y2="156.9"/>
+  <rect class="st55" x="50.2" y="214" width="39.3" height="35.4" rx="12" ry="12"/>
+  <g class="st18">
+    <text class="st22" transform="translate(57.1 257.5)"><tspan x="0" y="0">酥炸豆包 $120</tspan></text>
+  </g>
+  <rect class="st55" x="92.6" y="214" width="39.3" height="35.4" rx="12" ry="12"/>
+  <g class="st18">
+    <text class="st22" transform="translate(100.7 257.5)"><tspan x="0" y="0">酥炸豆包 $120</tspan></text>
+  </g>
+  <rect class="st55" x="7.7" y="214" width="39.3" height="35.4" rx="12" ry="12"/>
+  <g class="st18">
+    <text class="st22" transform="translate(14.8 257.5)"><tspan x="0" y="0">酥炸豆包 $120</tspan></text>
+  </g>
+  <g>
+    <rect class="st55" x="179.3" y="214.3" width="39.3" height="35.4" rx="12" ry="12"/>
+    <g class="st18">
+      <text class="st30" transform="translate(187.3 257.7)"><tspan x="0" y="0">酥炸豆包 $120</tspan></text>
+    </g>
+    <rect class="st55" x="221.8" y="214.3" width="39.3" height="35.4" rx="12" ry="12"/>
+    <g class="st18">
+      <text class="st30" transform="translate(229.8 257.7)"><tspan x="0" y="0">酥炸豆包 $120</tspan></text>
+    </g>
+    <rect class="st55" x="136.9" y="214.3" width="39.3" height="35.4" rx="12" ry="12"/>
+    <g class="st18">
+      <text class="st30" transform="translate(144.9 256.9)"><tspan x="0" y="0">酥炸豆包 $120</tspan></text>
+    </g>
+  </g>
+  <rect class="st50" y="409.8" width="139.7" height="93.2"/>
+  <rect class="st50" y="279.6" width="139.7" height="93.2"/>
+  <image class="st18" width="3204" height="2136" transform="translate(-17.6 -121.6) scale(0)" xlink:href="bg-6.jpg"/>
+  <rect class="st24" y="409.9" width="139.7" height="93.1"/>
+  <g class="st18">
+    <text class="st10" transform="translate(10.2 454.3)"><tspan x="0" y="0">素食居酒屋</tspan></text>
+    <text class="st10" transform="translate(10.2 461.3)"><tspan x="0" y="0">素食居酒屋</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st4" transform="translate(10.5 470.6)"><tspan x="0" y="0">持完美的居酒屋料理</tspan></text>
+    <text class="st4" transform="translate(10.5 474.6)"><tspan x="0" y="0">持玩美的素食料</tspan></text>
+    <text class="st4" transform="translate(10.5 478.6)"><tspan x="0" y="0">理料理</tspan></text>
+    <text class="st19" transform="translate(21.3 478.6)"><tspan x="0" y="0">堅</tspan></text>
+    <text class="st4" transform="translate(24.9 478.6)"><tspan x="0" y="0">持玩美的素</tspan></text>
+    <text class="st4" transform="translate(10.5 482.6)"><tspan x="0" y="0">食料理，料理</tspan></text>
+    <text class="st4" transform="translate(10.5 486.6)"><tspan x="0" y="0">持玩美的素食料理</tspan></text>
+    <text class="st4" transform="translate(10.5 490.6)"><tspan x="0" y="0">料理</tspan></text>
+  </g>
+  <g>
+    <line class="st38" x1="124.5" y1="450.2" x2="124.5" y2="476.4"/>
+    <g class="st18">
+      <text class="st3" transform="translate(127.6 450.1) rotate(90)"><tspan x="0" y="0">VEGETABLE</tspan></text>
+    </g>
+  </g>
+  <g>
+    <line class="st36" x1="127.8" y1="415.7" x2="133.1" y2="415.7"/>
+    <line class="st36" x1="127.8" y1="417.8" x2="133.1" y2="417.8"/>
+    <line class="st36" x1="127.8" y1="419.9" x2="133.1" y2="419.9"/>
+  </g>
+  <g class="st18">
+    <text class="st0" transform="translate(5.4 418.8)"><tspan x="0" y="0">logo</tspan></text>
+  </g>
+  <g>
+    <g class="st18">
+      <text class="st21" transform="translate(19.4 158.4)"><tspan x="0" y="0">了解更多</tspan></text>
+    </g>
+    <path class="st12" d="M20.6,155.8h6.1c1.2,0,2.1.9,2.1,2.1h0c0,1.2-.9,2.1-2.1,2.1h-6.1c-1.2,0-2.1-.9-2.1-2.1h0c0-1.2.9-2.1,2.1-2.1Z"/>
+  </g>
+  <path class="st39" d="M1,152.8H0v23.5h1c6.5,0,11.8-5.3,11.8-11.8s-5.3-11.8-11.8-11.8h0Z"/>
+  <g>
+    <rect class="st52" x="-165.8" y="266.9" width="35.7" height="53.6"/>
+    <rect class="st54" x="-130.4" y="266.9" width="35.7" height="53.6"/>
+    <rect class="st53" x="-94.8" y="266.9" width="35.7" height="53.6"/>
+    <rect class="st35" x="-165.8" y="275.5" width="107.8" height="59" rx="5.2" ry="5.2"/>
+  </g>
+  <image class="st18" width="2510" height="1670" transform="translate(-203.8 -132.3) scale(0)" xlink:href="bg-5.jpg"/>
+  <g class="st18">
+    <text class="st17" transform="translate(74.9 118.4)"><tspan x="0" y="0">往下滑照片卡住</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st23" transform="translate(10 230.7)"><tspan x="0" y="0">滑到圖片飽和度</tspan></text>
+    <text class="st23" transform="translate(15 236.7)"><tspan x="0" y="0">變暗(效果)</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st23" transform="translate(52.5 230.7)"><tspan x="0" y="0">滑到圖片飽和度</tspan></text>
+    <text class="st23" transform="translate(57.5 236.7)"><tspan x="0" y="0">變暗(效果)</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st23" transform="translate(95 230.7)"><tspan x="0" y="0">滑到圖片飽和度</tspan></text>
+    <text class="st23" transform="translate(100 236.7)"><tspan x="0" y="0">變暗(效果)</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st23" transform="translate(166.1 183.1)"><tspan x="0" y="0">按圖片前往</tspan></text>
+    <text class="st23" transform="translate(168.6 189.1)"><tspan x="0" y="0">菜單頁面</tspan></text>
+  </g>
+  <g>
+    <rect class="st50" x="142.5" y="-.5" width="30" height="93.1"/>
+    <g>
+      <line class="st43" x1="164.5" y1="3.2" x2="168.7" y2="7.4"/>
+      <line class="st43" x1="168.7" y1="3.2" x2="164.5" y2="7.4"/>
+    </g>
+    <g>
+      <g>
+        <g class="st18">
+          <text class="st20" transform="translate(152.6 22)"><tspan x="0" y="0">關於我們</tspan></text>
+        </g>
+        <polygon points="149.7 20.6 149.7 22 151.1 21.3 149.7 20.6"/>
+      </g>
+      <g>
+        <g class="st18">
+          <text class="st20" transform="translate(152.6 30.2)"><tspan x="0" y="0">關於我們</tspan></text>
+        </g>
+        <polygon points="149.7 28.8 149.7 30.2 151.1 29.5 149.7 28.8"/>
+      </g>
+      <g>
+        <g class="st18">
+          <text class="st20" transform="translate(152.6 38.5)"><tspan x="0" y="0">關於我們</tspan></text>
+        </g>
+        <polygon points="149.7 37 149.7 38.5 151.1 37.7 149.7 37"/>
+      </g>
+      <g>
+        <g class="st18">
+          <text class="st20" transform="translate(152.6 46.7)"><tspan x="0" y="0">關於我們</tspan></text>
+        </g>
+        <polygon points="149.7 45.2 149.7 46.7 151.1 45.9 149.7 45.2"/>
+      </g>
+      <g>
+        <g class="st18">
+          <text class="st20" transform="translate(152.6 54.9)"><tspan x="0" y="0">關於我們</tspan></text>
+        </g>
+        <polygon points="149.7 53.5 149.7 54.9 151.1 54.1 149.7 53.5"/>
+      </g>
+    </g>
+    <g class="st18">
+      <text class="st25" transform="translate(153.2 72.4)"><tspan x="0" y="0">素食居酒屋</tspan></text>
+    </g>
+    <g class="st18">
+      <text class="st8" transform="translate(154.2 75.5)"><tspan x="0" y="0">09792656872</tspan></text>
+    </g>
+    <g>
+      <path class="st46" d="M157.2,78.9c0-.6-.5-1.2-1.2-1.2s-1.2.5-1.2,1.2.4,1.1,1,1.1v-.8h-.3v-.3h.3v-.3c0-.3.2-.5.4-.5h.3v.3h-.1c-.1,0-.2,0-.2.2v.2h.3v.3h-.3v.8c.6,0,1-.6,1-1.1h0Z"/>
+      <path class="st47" d="M159.9,78.9c0,.6-.5,1.2-1.2,1.2s-1.2-.5-1.2-1.2.5-1.2,1.2-1.2,1.2.5,1.2,1.2h0ZM158.8,78.1h-.6v1.1h0q0,0,.1,0h1.1c.1,0,0,0,0,0v-1h0q0,0-.1,0h-.5ZM158.8,78.3h.4v.7h0q0,0-.1,0h-.7v-.7h0q0,0,.1,0h.3ZM158.8,79.1c-.1,0-.2,0-.2-.2s.1-.2.2-.2.2,0,.2.2-.1.2-.2.2h0ZM158.8,78.5c-.2,0-.4.2-.4.4s.2.4.4.4.4-.2.4-.4-.2-.4-.4-.4h0ZM159.3,78.5h0Z"/>
+      <path class="st47" d="M162.7,78.9c0,.6-.5,1.2-1.2,1.2s-1.2-.5-1.2-1.2.5-1.2,1.2-1.2,1.2.5,1.2,1.2h0ZM162.3,78.8c0-.4-.4-.6-.8-.6s-.8.3-.8.6.3.6.7.6h0s.5-.3.6-.5h0c.1,0,.2-.3.2-.4h0v.3ZM161.2,78.9h-.2v-.3h0v.3h.2ZM162,78.7h-.2v.3h.2-.2.2-.2.2v-.3ZM161.7,78.6h0v.2l-.2-.2h0v.3h0v-.2l.2.2h0v-.3h0ZM161.3,78.6h0v.3h0v-.3h0Z"/>
+    </g>
+  </g>
+  <g class="st18">
+    <text class="st15" transform="translate(120.3 499.9)"><tspan x="0" y="0">Copyright@蘇于涵</tspan></text>
+  </g>
+  <rect class="st55" y="358.5" width="139.7" height="51.3"/>
+  <line class="st42" x1="69.8" y1="370.8" x2="69.8" y2="401.3"/>
+  <g class="st18">
+    <text class="st9" transform="translate(98 369.3)"><tspan x="0" y="0">營業資訊</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st9" transform="translate(27 369.3)"><tspan x="0" y="0">線上預約</tspan></text>
+  </g>
+  <g class="st18">
+    <text class="st26" transform="translate(11 206.4)"><tspan x="0" y="0">冬季限定溫暖整個月</tspan></text>
+  </g>
+  <line class="st44" x1="-53.8" y1="172.4" x2="-17.6" y2="172.4"/>
+  <line class="st44" x1="-52.7" y1="183.1" x2="-16.5" y2="183.1"/>
+  <polygon class="st48" points="35.8 199.1 35.8 200.5 37.1 199.8 35.8 199.1"/>
+  <image class="st18" width="1233" height="1560" transform="translate(233.4 -11.1) scale(0)" xlink:href="bg-7.jpg"/>
+  <image class="st18" width="1560" height="1040" transform="translate(367.6 -66.4) scale(0)" xlink:href="bg-9.jpg"/>
+  <image class="st18" width="7515" height="5000" transform="translate(163.5 -204.7) scale(0)" xlink:href="bg-2.jpg"/>
+</svg>

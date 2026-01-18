@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蘇約翰的學習紀錄</title>
+
+    <!-- codepan 換圖輪播-->
+    <link rel="stylesheet" href="./CSS/carousrl.css">
+    <!-- 自訂css一定要放在最下面，因為權重要最重-->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <!-- 頁首區 -->
+    <header id="head">
+        <!-- logo -->
+        <a class="logo" href="#">logo</a>
+        <!--  navigation  -->
+        <div class="topbar">
+            <button class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="navigation">
+                <ul class="icon">
+                    <li><a href="#"><img src="https://demo.jumpdesign.tw/img/icon-fb.svg" alt="搜尋按鈕"></a></li>
+                    <li><a href="#"><img src="https://demo.jumpdesign.tw/img/icon-ig.svg" alt="會員管理按鈕"></a></li>
+                    <li><a href="#"><img src="https://demo.jumpdesign.tw/img/icon-line.svg" alt="購物車按鈕"></a></li>
+                </ul>
+
+                <ul class="menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- 主要內容區 -->
+    <main>
+        <!--換圖輪播-->
+        <section id="section-1">
+            <div class="content-slider">
+                <!-- 圖片切換器 -->
+                <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+                <input type="radio" id="banner2" class="sec-1-input" name="banner">
+                <input type="radio" id="banner3" class="sec-1-input" name="banner">
+                <input type="radio" id="banner4" class="sec-1-input" name="banner">
+                <!-- 輪播圖片區 -->
+                <div class="slider">
+                    <!-- 第一頁 -->
+                    <div id="top-banner-1" class="banner">
+                        <div class="banner-inner-wrapper">
+                            <h1>素食居酒屋</h1>
+                            <div class="line"></div>
+                            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+                        </div>
+                    </div>
+                    <!-- 第二頁 -->
+                    <div id="top-banner-2" class="banner">
+                        <div class="banner-inner-wrapper">
+                            <h1>素食居酒屋</h1>
+                            <div class="line"></div>
+                            <div class="learn-more-button"><a href="#section-4">Learn More</a></div>
+                        </div>
+                    </div>
+                    <!-- 第三頁 -->
+                    <div id="top-banner-3" class="banner">
+                        <div class="banner-inner-wrapper">
+                            <h1>素食居酒屋</h1>
+                            <div class="line"></div>
+                            <div class="learn-more-button"><a href="#section-6">Learn More</a></div>
+                        </div>
+                    </div>
+                    <!-- 第四頁 -->
+                    <div id="top-banner-4" class="banner">
+                        <div class="banner-inner-wrapper">
+                            <h1>素食居酒屋</h1>
+                            <div class="line"></div>
+                            <div class="learn-more-button"><a href="#main-footer">Learn More</a></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 張數提示器 -->
+                <nav>
+                    <div class="controls">
+                        <label for="banner1"><span class="progressbar"><span
+                                    class="progressbar-fill"></span></span></label>
+                        <label for="banner2"><span class="progressbar"><span
+                                    class="progressbar-fill"></span></span></label>
+                        <label for="banner3"><span class="progressbar"><span
+                                    class="progressbar-fill"></span></span></label>
+                        <label for="banner4"><span class="progressbar"><span
+                                    class="progressbar-fill"></span></span></label>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <!-- 關於我們 -->
+        <section class="news">
+            <div class="about smoove">
+                <div class="main-tittle">
+                    <h1>關於我們</h1>
+                    <figure><img src="./images/pic-5.png"></figure>
+                </div>
+                <div class="list-box">
+                    <div class="address">
+                        <figure><img src="../251124網站練習/images/bg-10.jpg"></figure>
+                    </div>
+                    <div class="main-text">
+                        <div class="light">
+                            <details>
+                                <summary>今晚，就坐下來吃點蔬菜，</summary>
+                                        床前明月光，疑是地上霜。
+                            </details>
+                        </div>
+                        <div class="light">
+                            <details>
+                                <summary>慢慢烤，讓味道自己出來，</summary>
+                                        床前明月光，疑是地上霜。
+                            </details>
+                        </div>
+                        <div class="light">
+                            <details>
+                                <summary>日式蔬食・小酌・手作料理</summary>
+                                        床前明月光，疑是地上霜。
+                            </details>
+                        </div>
+                        <article class="more smoove">
+                            <div class="btn">
+                                <a href="#">MORE</a>
+                                <div class="triangle"></div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 活動資訊 -->
+        <section id="active">
+            <article class="decorate">
+                <figure class="de_1"><img src="./images/bg.eat-1.png"></figure>
+                <figure class="de_2"><img src="./images/bg.eat-4.png"></figure>
+                <figure class="de_3"><img src="./images/bg.eat-3.png"></figure>
+                <figure class="de_4"><img src="./images/bg.eat-2.png"></figure>
+                <figure><img src="./images/pic-5.png"></figure>
+            </article>
+            <div class="smoove">
+                <h3>冬季限定</h3>
+                <div class="title smoove">
+                    <div class="act_text">
+                        <p>1.</p>
+                        <p>冬季限定</p>
+                    </div>
+                    <div class="act_text">
+                        <p>2.</p>
+                        <p>冬季限定</p>
+                    </div>
+                    <div class="act_text">
+                        <p>3.</p>
+                        <p>冬季限定</p>
+                    </div>
+                </div>
+                <article class="mainpic smoove">
+                    <figure><img src="./images/main-pic-1.png"></figure>
+                    <figure><img src="./images/main-pic-2.png"></figure>
+                    <figure><img src="./images/main-pic-3.png"></figure>
+                </article>
+                <div class="introtext smoove">
+                    <p>素食居酒<br>屋料理，<br>美味又健康</p>
+                    <p>素食居酒<br>屋料理，<br>美味又健康</p>
+                    <p>素食居酒<br>屋料理，<br>美味又健康</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 最新菜單 -->
+        <section id="new-menu">
+            <div class="list-menu smoove">
+                <div class="menutext">
+                    <h3>最新菜單</h3>
+                    <p>冬季限定暖心整個月</p>
+                    <figure><img src="./images/pic-5.png"></figure>
+                </div>
+                <div class="menuimg">
+                    <a href="#">
+                        <figure><img src="./images/bg-4.jpg"></figure>
+                        <p>炸豆包$120</p>
+                    </a>
+                    <a href="#">
+                        <figure><img src="./images/bg-6.jpg"></figure>
+                        <p>菇菇串$160</p>
+                    </a>
+                    <a href="#">
+                        <figure><img src="./images/bg-5.jpg"></figure>
+                        <p>蔬菜串$100</p>
+                    </a>
+                    <a href="#">
+                        <figure><img src="./images/bg-9.jpg"></figure>
+                        <p>炸脆薯$200</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 最新消息 -->
+        <section id="information">
+            <div class="infor_text">
+                <p>線上預約</p>
+                <p>營業時間</p>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <!-- 頁尾 -->
+        <article>
+            <figure><img src="./images/bg-4.jpg"></figure>
+        </article>
+    </footer>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- jquery smoove cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+    <!-- 自訂的js -->
+    <script src="./js/menu.js"></script>
+
+</body>
+
+</html>

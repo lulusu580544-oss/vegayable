@@ -1,0 +1,798 @@
+@charset "UTF-8";
+/*編碼一定要在第一行，國際通用編碼*/
+
+
+@font-face {
+    /*字體抓取*/
+    font-family: "headpaint";
+    src: url(../webfonts/headpaint.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/*不累加邊框及內距*/
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    /*預設html樣式邊框清空*/
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*預設16像素*/
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* 重置字體 */
+body {
+    font-family:
+        /*英⽂*/
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial,
+        /*中⽂*/
+        "蘋⽅-繁", "PingFang TC", "⿊體-繁", "Heiti TC", "微軟正⿊體", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+    /*自動偵測電腦預設的無稱線字*/
+    line-height: 1.5;
+    /*字體的大小常用1.5倍或1.2倍*/
+}
+
+/* 重置標題 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    /*NORMAL=400的粗細，字重(粗體或細體)的更改*/
+
+}
+
+/* 重置列表 */
+ul,
+ol {
+    list-style: none;
+    /*列表旁邊不要加點點*/
+}
+
+/* 重置圖片 */
+img {
+    display: block;
+    /*原本是inline block，但中間會有空白間距*/
+    width: 100%;
+    /*通常用FIGURE標籤裝圖片，
+將尺寸延展成FIGURE的尺寸，在用FIGURE設定*/
+}
+
+/* 重置連接 */
+a {
+    display: block;
+    /*原本預設是display inline，但是他不
+    支援寬高樣式設定，因此改成block*/
+    color: var(--dark);
+    text-decoration: none;
+    /*文字下面的底線取消*/
+}
+
+/* #navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+
+.nav-box {
+    z-index: 1;
+    width: 18vh;
+    display: flex;
+    position: fixed;
+} */
+
+/* 整個漢堡區域 
+.nav-box>label {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    cursor: pointer;
+    /*當滑鼠移進去時便手指形狀
+}
+
+/* 三條線 
+label div {
+    z-index: 99;
+    width: 2.9rem;
+    height: 0.1rem;
+    background: #ffffff;
+    border-radius: 0.25rem;
+    transition: 0.3s ease-in-out;
+}
+
+/* 綠色列表 
+.cover {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    background-color: #426337;
+
+    font-family: "隨緣體";
+
+    transition: 0.35s ease-in-out;
+
+    width: 300px;
+    height: 100vh;
+    right: -300px;
+    top: -.5px;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input:checked~label>.cover {
+    right: -2px;
+}
+
+input:checked~label>div:first-child {
+    background-color: white;
+    transform: translate(-11px, 13px) rotate(-45deg);
+}
+
+input:checked~label>div:nth-child(2) {
+    width: 0;
+}
+
+input:checked~label>div:nth-child(3) {
+    background-color: white;
+    transform: translate(-10px, -12px) rotate(45deg);
+} */
+
+
+#head {
+    width: 100%;
+    position: fixed;
+    /*讓頁首固定在位置上，不隨滾動移動*/
+    z-index: 99;
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* 第一階段 */
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+
+.logo {
+    color: #ffffff;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.icon {
+    display: flex;
+    order: 1;
+    padding: 15px;
+}
+
+.icon a {
+    width: 35px;
+    margin: 0 5px;
+}
+
+/* 手機版選單列樣式 */
+.topbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* 第二階段 */
+/* 漢堡按鈕  */
+.hamburger {
+    margin-bottom: 10px;
+    /*  修改button預設樣式  */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px auto;
+    transition: 0.35s;
+}
+
+/* 三 變換為 X */
+.hamburger.is-active .bar:nth-child(1) {
+    transform: rotate(45deg) translateY(6px) translateX(5px);
+}
+
+.hamburger.is-active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.is-active .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
+}
+
+
+.navigation {
+    /* 第一階段 */
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    /* 第三階段 */
+    display: none;
+    /* 第四階段 */
+    animation: hide 1s both;
+}
+
+/* 第三階段 */
+.navigation.show {
+    display: flex;
+    animation: show 1s both;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* 第四階段 */
+@keyframes hide {
+    from {
+        opacity: 1;
+        display: flex;
+    }
+
+    /*動態顯示*/
+    to {
+        opacity: 0;
+        display: none;
+    }
+
+    /*動態消失*/
+}
+
+
+
+
+
+/* ul {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 73px;
+} */
+
+/* 共用區 */
+section {
+    height: 120vh;
+}
+
+/* 關於我們  section*/
+.news {
+    background-image: url(../images/1086029.jpg);
+    z-index: -99;
+    display: flex;
+}
+
+
+
+
+
+/* --------最新活動---------- */
+#active {
+    background-image: url(../images/1086029.jpg);
+    position: relative;
+    overflow: hidden;
+    height: 160vh;
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        font-family: "headpaint";
+        padding-top: 100px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+        gap: 150px;
+
+        .act_text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-top: 30px;
+        }
+
+        p {
+            display: flex;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 3rem;
+            font-family: "headpaint";
+        }
+    }
+
+    .mainpic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+
+        figure {
+            width: 15%;
+            margin-top: 80px;
+        }
+    }
+
+    .introtext {
+        display: flex;
+        gap: 180px;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        writing-mode: vertical-lr;
+
+        padding-top: 120px;
+        font-size: 2.3rem;
+        font-family: "headpaint";
+    }
+}
+
+/* 右上 肉串 */
+.decorate>:nth-child(1) {
+    width: 13%;
+    position: absolute;
+    right: -250px;
+    z-index: 2;
+}
+
+/* 左下 肉串 */
+.decorate>:nth-child(2) {
+    width: 13%;
+    position: absolute;
+    left: -200px;
+    margin-top: 650px;
+    z-index: 2;
+}
+
+/* 右下 雞腿*/
+.decorate>:nth-child(3) {
+    width: 13%;
+    position: absolute;
+    /*relative的子元素*/
+    right: -200px;
+    margin-top: 550px;
+    z-index: 2;
+}
+
+/* 左上 香腸*/
+.decorate>:nth-child(4) {
+    width: 13%;
+    position: absolute;
+    /*relative的子元素*/
+    left: -200px;
+    margin-top: 100px;
+    z-index: 2;
+}
+
+.decorate>:nth-child(5) {
+    width: 8%;
+    position: absolute;
+    /*relative的子元素*/
+    left: 830px;
+    top: 160px;
+}
+
+.decorate>:nth-child(1):hover {
+    transform: scale(1.15);
+}
+
+.decorate>:nth-child(2):hover {
+    transform: scale(1.15);
+}
+
+.decorate>:nth-child(3):hover {
+    transform: scale(1.15);
+}
+
+.decorate>:nth-child(4):hover {
+    transform: scale(1.15);
+}
+
+
+/* ------------關於我們------------ */
+.about {
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    height: 120vh;
+
+    .main-tittle {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+
+        & h1 {
+            font-size: 4rem;
+            font-family: "headpaint";
+        }
+
+        & img {
+            z-index: 0;
+            position: relative;
+            top: -40px;
+            left: 470px;
+            width: 15%;
+
+        }
+    }
+
+    .list-box {
+
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        gap: 130px;
+
+        .address {
+            width: 30%;
+        }
+
+        .main-text {
+
+            .light {
+
+                display: flex;
+
+                border-bottom: #000000 1.5px solid;
+                border-top: 40px;
+
+                width: 550px;
+
+                & details {
+
+                    cursor: pointer;
+                    font-family: "headpaint";
+                    position: relative;
+                    font-size: 2rem;
+
+                    padding: 20px;
+                }
+            }
+
+            .more {
+                padding-top: 40px;
+                display: flex;
+                align-items: center;
+                /*justify-content: center; */
+
+                a {
+                    color: #648359;
+                    font-family: "headpaint";
+                    font-size: 1.5rem;
+
+                    display: flex;
+                    padding-left: 35px;
+                    align-items: center;
+                    width: 150px;
+                    height: 50px;
+                    border-radius: 99px;
+                    border: #648359 solid 2px;
+                }
+
+                .btn {
+                    display: flex;
+                }
+
+                .triangle {
+                    margin-left: -15px;
+                    border-left: 6px solid transparent;
+                    border-right: 6px solid transparent;
+                    border-bottom: 6px solid #648359;
+                    transform: rotate(90deg);
+                }
+
+                .btn:hover>.triangle {
+                    border-bottom: 6px solid rgb(255, 255, 255);
+                }
+
+                .btn:hover>a {
+                    color: #ffffff;
+                    background-color: #99bb8c;
+                    --c1: 100%;
+                    --c2: 100%;
+                }
+
+            }
+        }
+    }
+
+}
+
+@property --c1 {
+    syntax: "<percentage>";
+    inherits: true;
+    initial-value: 0%;
+}
+
+@property --c2 {
+    syntax: "<percentage>";
+    inherits: true;
+    initial-value: 0%;
+}
+
+.btn>a {
+    background: linear-gradient(to right, #648359 var(--c1), #ffffff var(--c2));
+    transition: .5s, --c1 .5s, --c2 .5s;
+}
+
+/* ------------最新菜單 -------------*/
+#new-menu {
+    background-image: url(../images/1086029.jpg);
+    display: flex;
+
+    .list-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+
+        & h3 {
+            font-size: 4rem;
+            font-family: "headpaint";
+        }
+
+        .menutext {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 0;
+
+            & p {
+                color: rgb(104, 104, 104);
+                position: relative;
+                top: 70px;
+                font-size: 2.1rem;
+                font-family: "headpaint";
+            }
+
+            & figure {
+                z-index: -1;
+                position: relative;
+                width: 15%;
+                top: -100px;
+                left: 120px;
+            }
+        }
+
+        .menuimg {
+            display: flex;
+            width: 90%;
+            position: relative;
+            top: -10px;
+            gap: 30px;
+            overflow: hidden;
+
+            & figure {
+                overflow: hidden;
+                padding-top: 120px;
+            }
+
+            & p {
+                position: relative;
+                top: -55px;
+                right: -20px;
+                text-align: center;
+                width: 150px;
+                font-size: 1.7rem;
+                font-family: "headpaint";
+                color: #e9e8e8;
+
+            }
+        }
+    }
+
+}
+
+
+
+.menuimg img {
+    display: flex;
+    justify-content: center;
+
+    object-fit: cover;
+    /*rwd裡面的語法，裁減圖片用*/
+    height: 300px;
+    /*w100%在reset已設定*/
+    transition: 0.35s;
+}
+
+
+.menuimg>:nth-child(1):hover img {
+    transform: scale(1.05);
+    filter: brightness(0.4);
+}
+
+.menuimg>:nth-child(2):hover img {
+    transform: scale(1.05);
+    filter: brightness(0.4);
+}
+
+.menuimg>:nth-child(3):hover img {
+    transform: scale(1.05);
+    filter: brightness(0.4);
+}
+
+.menuimg>:nth-child(4):hover img {
+    transform: scale(1.05);
+    filter: brightness(0.4);
+}
+
+.menuimg>:nth-child(1):hover p {
+    border-bottom: 1px #ffffff solid;
+}
+
+.menuimg>:nth-child(2):hover p {
+    border-bottom: 1px #ffffff solid;
+}
+
+.menuimg>:nth-child(3):hover p {
+    border-bottom: 1px #ffffff solid;
+}
+
+.menuimg>:nth-child(4):hover p {
+    border-bottom: 1px #ffffff solid;
+}
+
+
+
+#information {
+    background-color: #648359;
+    height: 60vh;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+
+    .infor_text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        p {
+            color: #ffffff;
+            font-size: 3rem;
+            font-family: "headpaint";
+            padding: 150px;
+        }
+    }
+
+}
+
+#footer {
+    position: sticky;
+}
